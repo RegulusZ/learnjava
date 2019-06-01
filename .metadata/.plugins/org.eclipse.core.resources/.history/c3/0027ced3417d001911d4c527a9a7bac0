@@ -1,0 +1,63 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Signal_report {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("请输入信号报告代码：");
+		Scanner in = new Scanner(System.in);
+		int code = in.nextInt();
+		switch (code%10)
+		{
+		case 1:
+			System.out.println("Faint signals, barely perceptible, ");
+			break;
+		case 2:
+			System.out.println("Very weak signals, ");
+			break;
+		case 3:
+			System.out.println("Weak signals, ");
+			break;
+		case 4:
+			System.out.println("Fair signals, ");
+			break;
+		case 5:
+			System.out.println("Fairly good signals, ");
+			break;
+		case 6:
+			System.out.println("Good signals, ");
+			break;
+		case 7:
+			System.out.println("Moderately strong signals, ");
+			break;
+		case 8:
+			System.out.println("Strong signals, ");
+			break;
+		case 9:
+			System.out.println("Extremely strong signals, ");
+			break;
+		}
+		switch(code/10)
+		{
+		case 1:
+			System.out.print("Unreadable.");
+			break;
+		case 2:
+			System.out.print("Barely readable, occasional words distinguishable.");
+			break;
+		case 3:
+			System.out.print("Readable with considerable difficulty.");
+			break;
+		case 4:
+			System.out.print("Readable with practically no difficulty.");
+			break;
+		case 5:
+			System.out.print("Perfectly readable.");
+			break;
+		}
+		
+	}
+
+}

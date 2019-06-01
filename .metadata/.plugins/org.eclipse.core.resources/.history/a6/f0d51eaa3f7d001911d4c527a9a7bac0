@@ -1,0 +1,25 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Time_conversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("请输入北京时间：");
+		Scanner in = new Scanner(System.in);
+		int BJT = in.nextInt();
+		int UTC;
+		int temp = BJT - 800;
+		if (temp>=0)
+		{
+			UTC = temp;
+		}
+		else
+		{
+			UTC = 2400 + temp;
+		}
+		System.out.println("对应的世界时间是："+UTC);
+	}
+
+}
