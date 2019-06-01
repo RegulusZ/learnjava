@@ -8,11 +8,11 @@ public class temperature {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		int F = 0;
-		System.out.print("请输入华氏温度：");
+		System.out.print("璇疯緭鍏ュ崕姘忔俯搴︼細");
 		F = in.nextInt();
 		int C = 0;
 		C = (int)((F-32)*5/9.0);
-		System.out.println("转换为摄氏温度为："+C);
+		System.out.println("鎽勬皬娓╁害鏄細"+C);
 
 	}
 

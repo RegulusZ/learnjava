@@ -6,7 +6,7 @@ public class Count_number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("ÇëÊäÈëÄãµÄÊı×Ö£º");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š");
 		Scanner in = new Scanner(System.in);
 		int number = in.nextInt();
 		int count = 0;
@@ -15,7 +15,7 @@ public class Count_number {
 			number = number/10;
 			count += 1;
 		}while (number >0);
-		System.out.println("ÄãÊäÈëµÄÊı×ÖÊÇ"+count+"Î»Êı");
+		System.out.println("ä½ è¾“å…¥çš„æ˜¯"+count+"ä½æ•°");
 	}
 
 }

@@ -6,7 +6,7 @@ public class Signal_report {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("请输入信号报告代码：");
+		System.out.print("璇疯緭鍏ヤ唬鐮侊細");
 		Scanner in = new Scanner(System.in);
 		int code = in.nextInt();
 		switch (code%10)

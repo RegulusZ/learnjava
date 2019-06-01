@@ -7,15 +7,15 @@ public class Age {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		final int MINOR = 35;
-		System.out.print("ÇëÊäÈëÄãµÄÄêÁä£º");
+		System.out.print("è¯·è¾“å…¥ä½ çš„å¹´é¾„ï¼š");
 		Scanner in = new Scanner(System.in);
 		int age = in.nextInt();
-		System.out.println("ÄãµÄÄêÁäÊÇ£º"+age);
+		System.out.println("ä½ çš„å¹´é¾„æ˜¯ï¼š"+age);
 		if (age <= MINOR)
 		{
-			System.out.print("ÄêÇáÊÇÃÀºÃµÄ,");
+			System.out.print("å¹´è½»æ˜¯ç¾å¥½çš„,");
 		}
-		System.out.println("ÄêÁä¾ö¶¨ÁËÄãµÄ¾«ÉñÊÀ½ç£¬ºÃºÃÕäÏ§°É");
+		System.out.println("çæƒœæ—¶å…‰å§");
 	}
 
 }

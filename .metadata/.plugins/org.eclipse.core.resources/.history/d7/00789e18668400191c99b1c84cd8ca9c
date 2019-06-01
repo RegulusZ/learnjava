@@ -18,11 +18,11 @@ public class Prime_number {
 		}
 		if (count>0)
 		{
-			System.out.println("ä¸æ˜¯ç´ æ•°");
+			System.out.println("²»ÊÇËØÊı");
 		}
 		else
 		{
-			System.out.println("æ˜¯ç´ æ•°");
+			System.out.println("ÊÇËØÊı");
 		}
 	}
 

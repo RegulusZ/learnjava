@@ -8,23 +8,23 @@ public class Ticket2 {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		int balance = 0;
-//		¶ÁÈëÍ¶±Ò½ğ¶î
+//		è¯»å…¥æŠ•å¸é‡‘é¢
 		while (true)
 		{
-			System.out.print("ÇëÍ¶±Ò£º");
+			System.out.print("è¯·æŠ•å¸ï¼š");
 			int amount = in.nextInt();
 			balance = balance + amount;
-			System.out.println("ÄúÒÑÍ¶ÈëµÄ½ğ¶îÊÇ£º"+balance);
-	//		´òÓ¡³µÆ±
+			System.out.println("æ‚¨å·²æŠ•å…¥çš„é‡‘é¢æ˜¯ï¼š"+balance);
+	//		æ‰“å°è½¦ç¥¨
 			if ( balance >= 10)
 			{
 			System.out.println("**************");
-			System.out.println("*Java³Ç¼ÊÌúÂ·×¨Ïß*");
-			System.out.println("*  ÎŞÖ¸¶¨×ùÎ»Æ±      *");
-			System.out.println("*  Æ±¼Û£º10Ôª        *");
+			System.out.println("*JavaåŸé™…é“è·¯ä¸“çº¿*");
+			System.out.println("*  æ— æŒ‡å®šåº§ä½ç¥¨      *");
+			System.out.println("*  ç¥¨ä»·ï¼š10å…ƒ        *");
 			System.out.println("**************");
-	//		¼ÆËã²¢´òÓ¡ÕÒÁã
-			System.out.println("ÕÒÁã£º"+(balance-10));
+	//		è®¡ç®—å¹¶æ‰“å°æ‰¾é›¶
+			System.out.println("æ‰¾é›¶ï¼š"+(balance-10));
 			balance = 0;
 			}
 

@@ -7,20 +7,20 @@ public class Ticket {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-//		¶ÁÈëÍ¶±Ò½ğ¶î
-		System.out.print("ÇëÍ¶±Ò£º");
+//		ï¿½ï¿½ï¿½ï¿½Í¶ï¿½Ò½ï¿½ï¿½
+		System.out.print("è¯·æŠ•ç¥¨");
 		int amount = in.nextInt();
-		System.out.println("ÄúÍ¶ÈëµÄ½ğ¶îÊÇ£º"+amount);
-//		´òÓ¡³µÆ±
+		System.out.println("æ‚¨æŠ•å…¥çš„é‡‘é¢æ˜¯ï¼š"+amount);
+//		ï¿½ï¿½Ó¡ï¿½ï¿½Æ±
 		if ( amount >= 10)
 		{
 		System.out.println("**************");
-		System.out.println("*Java³Ç¼ÊÌúÂ·×¨Ïß*");
-		System.out.println("*  ÎŞÖ¸¶¨×ùÎ»Æ±      *");
-		System.out.println("*  Æ±¼Û£º10Ôª        *");
+		System.out.println("*JavaåŸé™…ä¸“ä¹˜*");
+		System.out.println("*  ç¥¨ä»·      *");
+		System.out.println("*  10å…ƒ        *");
 		System.out.println("**************");
-//		¼ÆËã²¢´òÓ¡ÕÒÁã
-		System.out.println("ÕÒÁã£º"+(amount-10));
+//		ï¿½ï¿½ï¿½ã²¢ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ä½ çš„æ‰¾é›¶æ˜¯ï¼š"+(amount-10));
 		}
 	}
 

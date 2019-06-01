@@ -9,9 +9,9 @@ public class Heghit {
 		int foot;
 		double inch;
 		Scanner in = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÓ¢³ß£º");
+		System.out.print("è¯·è¾“å…¥è‹±å°ºï¼š");
 		foot = in.nextInt();
-		System.out.print("ÇëÊäÈëÓ¢´ç£º");
+		System.out.print("è¯·è¾“å…¥è‹±å¯¸ï¼š");
 		inch = in.nextDouble();
 		System.out.println("foot="+foot+",inch="+inch);
 		System.out.println((int)((foot+inch/12.0)*0.3048*100)+"cm");

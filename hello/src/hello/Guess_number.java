@@ -7,7 +7,7 @@ public class Guess_number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		final int number = (int)(Math.random()*100+1);
-		System.out.print("ÇëÊäÈëÒ»¸öÊı×Ö:");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—:");
 		Scanner in = new Scanner(System.in);
 		int a;
 		int count =0;
@@ -16,15 +16,15 @@ public class Guess_number {
 			a = in.nextInt();
 			if (a>number)
 			{
-				System.out.println("Æ«´ó");
+				System.out.println("åå¤§");
 			}
 			else if (a<number)
 			{
-				System.out.println("Æ«Ğ¡");
+				System.out.println("åå°");
 			}
 			count += 1;
 		}while (a != number);
-		System.out.println("¹§Ï²Äã£¬²Â¶ÔÁË£¡Äã²ÂµÄ´ÎÊıÊÇ"+count);
+		System.out.println("ä½ æ‰€çŒœçš„æ¬¡æ•°æ˜¯ï¼š"+count);
 				
 	}
 

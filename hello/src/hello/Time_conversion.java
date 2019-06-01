@@ -6,7 +6,7 @@ public class Time_conversion {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("ÇëÊäÈë±±¾©Ê±¼ä£º");
+		System.out.print("è¯·è¾“å…¥åŒ—äº¬æ—¶é—´");
 		Scanner in = new Scanner(System.in);
 		int BJT = in.nextInt();
 		int UTC;
@@ -20,11 +20,11 @@ public class Time_conversion {
 		};
 		if (UTC<10)
 		{
-			System.out.println("¶ÔÓ¦µÄÊÀ½çÊ±¼äÊÇ£º0"+UTC);
+			System.out.println("å¯¹åº”çš„ä¸–ç•Œæ—¶é—´æ˜¯ï¼š0"+UTC);
 		}
 		else
 		{
-			System.out.println("¶ÔÓ¦µÄÊÀ½çÊ±¼äÊÇ£º"+UTC);
+			System.out.println("å¯¹åº”çš„ä¸–ç•Œæ—¶é—´æ˜¯ï¼š"+UTC);
 		}
 	}
 

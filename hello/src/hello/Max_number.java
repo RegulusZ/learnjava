@@ -32,7 +32,7 @@ public class Max_number {
 				max = z;
 			}
 		}
-		System.out.println("最大值是："+max);
+		System.out.println("鏈�澶у�兼槸"+max);
 	}
 
 }

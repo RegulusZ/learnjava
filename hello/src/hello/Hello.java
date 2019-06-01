@@ -6,14 +6,14 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("ÄãºÃ");
+		System.out.println("è¯·æŠ•å¸");
 		Scanner in = new Scanner(System.in);
 //		System.out.println("echo:" + in.nextLine());
 		int amount = 100;
-		System.out.print("ÇëÊäÈëÆ±Ãæ£º");
+		System.out.print("æ‚¨çš„");
 		amount = in.nextInt();
 		int price = 0;
-		System.out.print("ÇëÊäÈë½ğ¶î£º");
+		System.out.print("æ‚¨çš„æ‰¾é›¶æ˜¯ï¼š");
 		price = in.nextInt();
 		System.out.println(amount+"-"+price+"=" + (amount - price));
 	}
