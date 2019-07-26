@@ -3,7 +3,7 @@ package hello;
 import java.util.Scanner;
 
 //求出两个数的最大公约数（辗转相除法）
-public class Gcd {
+public class Gcd2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
