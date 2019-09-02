@@ -1,8 +1,6 @@
 //利用数组计算一组数的平均值并输出大于平均值的数
 package hello;
 
-//test
-
 import java.util.Scanner;
 
 public class Avg_array {
